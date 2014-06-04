@@ -1,8 +1,6 @@
 <html>
   <head>
-    <title>SEARCH</title>
-    <link rel="stylesheet" type="text/css" href="search.css">
-    <script type="text/javascript" src="search.js"></script>
+    <title>公聽會搜尋頁</title>
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
      <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
     <link rel="stylesheet" type="text/css" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/themes/dot-luv/jquery-ui.css" />
@@ -30,7 +28,6 @@
       <h5>時間</h5>
 <form action="form_action.asp"  class="days_filter" id="days">
   <input id="days" type="range" name="days" min="1" max="6">       
-  <!--   <p>||||||</p>-->
 <ul>
   <li>過去</li>
   <li>今天</li>
@@ -42,14 +39,14 @@
    </form>   
       <h5>類別</h5>  
     <div id="type" class="type">  
-      <input type="button" id="a" value="政治">
-      <input type="button" value="經濟">
-      <input type="button" value="環境">
-      <input type="button" value="性別">
-      <input type="button" value="教育">
-      <input type="button" value="保育">
-      <input type="button" value="種族">
-      <input type="button" value="治安">
+      <input type="button" id="but1" value="政治">
+      <input type="button" id="but2" value="經濟">
+      <input type="button" id="but3" value="環境">
+      <input type="button" id="but4" value="性別">
+      <input type="button" id="but5" value="教育">
+      <input type="button" id="but6" value="保育">
+      <input type="button" id="but7" value="種族">
+      <input type="button" id="but8" value="治安">
     </div>
 </div>    
   
@@ -58,10 +55,10 @@
       <h2>SORT</h2>
     <div class="select"> 
     <select name="sort" id="sort">
-				<option>時間 ↓</option>
-				<option>時間 ↑</option>
-				<option>人氣 ↓</option>
-				<option>人氣 ↑</option>
+				<option value="a">時間 ↓</option>
+				<option value="b">時間 ↑</option>
+				<option value="c">人氣 ↓</option>
+				<option value="d">人氣 ↑</option>
 			</select>
     </div>
    
@@ -115,5 +112,74 @@
   </div>
 
   </body>
+
+<script language=javascript>
+function Changea(){
+  if(But1.style.backgroundColor === "rgb(150,30,40)"){
+    But1.style.backgroundColor = "rgb(0,0,0)";
+  }
+  else{
+  But1.style.backgroundColor = "rgb(150,30,40)";
+  }
+  }
+function Changeb(){
+  if(But2.style.backgroundColor === "rgb(150,30,40)"){
+    But2.style.backgroundColor = "rgb(0,0,0)";
+  }
+  else{
+  But2.style.backgroundColor = "rgb(150,30,40)";
+  }
+  }
+function Changec(){
+  if(But3.style.backgroundColor === "rgb(150,30,40)"){
+    But3.style.backgroundColor = "rgb(0,0,0)";
+  }
+  else{
+  But3.style.backgroundColor = "rgb(150,30,40)";
+  }
+  }
+function Changed(){
+  if(But4.style.backgroundColor === "rgb(150,30,40)"){
+    But4.style.backgroundColor = "rgb(0,0,0)";
+  }
+  else{
+  But4.style.backgroundColor = "rgb(150,30,40)";
+  }
+  }
+function Changee(){
+  if(But5.style.backgroundColor === "rgb(150,30,40)"){
+    But5.style.backgroundColor = "rgb(0,0,0)";
+  }
+  else{
+  But5.style.backgroundColor = "rgb(150,30,40)";
+  }
+  }
+function Changef(){
+  if(But6.style.backgroundColor === "rgb(150,30,40)"){
+    But6.style.backgroundColor = "rgb(0,0,0)";
+  }
+  else{
+  But6.style.backgroundColor = "rgb(150,30,40)";
+  }
+  }
+function Changeg(){
+  if(But7.style.backgroundColor === "rgb(150,30,40)"){
+    But7.style.backgroundColor = "rgb(0,0,0)";
+  }
+  else{
+  But7.style.backgroundColor = "rgb(150,30,40)";
+  }
+  }
+function Changeh(){
+  if(But8.style.backgroundColor === "rgb(150,30,40)"){
+    But8.style.backgroundColor = "rgb(0,0,0)";
+  }
+  else{
+  But8.style.backgroundColor = "rgb(150,30,40)";
+  }
+  }
+</script>
+
+
 
 </html>
