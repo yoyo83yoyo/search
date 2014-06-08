@@ -40,14 +40,14 @@
    </form>   
       <h5>類別</h5>  
     <div id="type" class="type">  
-      <input type="button" id="But1"  onclick="Changea();" value="政治">
-      <input type="button" id="But2"  onclick="Changeb();" value="經濟">
-      <input type="button" id="But3"  onclick="Changec();" value="環境">
-      <input type="button" id="But4"  onclick="Changed();" value="性別">
-      <input type="button" id="But5"  onclick="Changee();" value="教育">
-      <input type="button" id="But6"  onclick="Changef();" value="保育">
-      <input type="button" id="But7"  onclick="Changeg();" value="種族">
-      <input type="button" id="But8"  onclick="Changeh();" value="治安">
+      <input type="button" id="But1"  onclick="Change();" value="政治">
+      <input type="button" id="But2"  onclick="Change();" value="經濟">
+      <input type="button" id="But3"  onclick="Change();" value="環境">
+      <input type="button" id="But4"  onclick="Change();" value="性別">
+      <input type="button" id="But5"  onclick="Change();" value="教育">
+      <input type="button" id="But6"  onclick="Change();" value="保育">
+      <input type="button" id="But7"  onclick="Change();" value="種族">
+      <input type="button" id="But8"  onclick="Change();" value="治安">
     </div>
 </div>    
   
@@ -115,70 +115,16 @@
   </body>
 
 <script language=javascript>
-function Changea(){
-  if(But1.style.backgroundColor === "rgb(150,30,40)"){
-    But1.style.backgroundColor = "rgb(200,200,200)";
+function Change(){
+//    var cl=getElementById(ID);
+  if(But1.className === "click"){
+    But1.className = "type";
   }
   else{
-  But1.style.backgroundColor = "rgb(150,30,40)";
+  But1.className = "click";
   }
   }
-function Changeb(){
-  if(But2.style.backgroundColor === "black"){
-    But2.style.backgroundColor = "white";
-  }
-  else{
-  But2.style.backgroundColor = "black";
-  }
-  }
-function Changec(){
-  if(But3.style.backgroundColor === "black"){
-    But3.style.backgroundColor = "white";
-  }
-  else{
-  But3.style.backgroundColor = "black";
-  }
-  }
-function Changed(){
-  if(But4.style.backgroundColor === "black"){
-    But4.style.backgroundColor = "white";
-  }
-  else{
-  But4.style.backgroundColor = "black";
-  }
-  }
-function Changee(){
-  if(But5.style.backgroundColor === "black"){
-    But5.style.backgroundColor = "white";
-  }
-  else{
-  But5.style.backgroundColor = "black";
-  }
-  }
-function Changef(){
-  if(But6.style.backgroundColor === "black"){
-    But6.style.backgroundColor = "white";
-  }
-  else{
-  But6.style.backgroundColor = "black";
-  }
-  }
-function Changeg(){
-  if(But7.style.backgroundColor === "black"){
-    But7.style.backgroundColor = "white";
-  }
-  else{
-  But7.style.backgroundColor = "black";
-  }
-  }
-function Changeh(){
-  if(But8.style.backgroundColor === "black"){
-    But8.style.backgroundColor = "white";
-  }
-  else{
-  But8.style.backgroundColor = "black";
-  }
-  }
+
 </script>
 
 
