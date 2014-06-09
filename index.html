@@ -12,23 +12,23 @@
     <div class='container'>
     <div class="left" id="left">
     <div class="SEARCH_Search">
-      <p><h2>SEARCH</h2></p>
+      <p><h2>關鍵字搜尋</h2></p>
     <div>
-		</form>
 <form id='search' action='http://www.google.com/search' target="_blank" method='get'>
 <input type="hidden" name="sitesearch" value="網址" />
 <input id="s" name="q" type="text" value="" />
+<input id="r" type="submit" value="" />
 </form>
-
-	<div class="SEARCH_Searchclear"></div>
-      </div>    
+      </div>
 </div>
-    
+
+    <hr>
     <div class="SEARCH_Filter">
-      <h2>FILTER</h2>
-      <h5>時間</h5>
+      <h2>幾天之內</h2>
+
 <form action="form_action.asp"  class="days_filter" id="days">
-  <input id="days" type="range" name="days" min="1" max="6">       
+  <input id="days" type="range" name="days" min="1" max="6">   
+</form>      
 <ul>
   <li>過去</li>
   <li>今天</li>
@@ -36,30 +36,36 @@
   <li>五天</li>
   <li>一週</li>
   <li>十天</li>
-  </ul>
-   </form>   
-     <h5>類別</h5>  
+  </ul>  
+      </div>
+<hr>
+      <div class="SEARCH_Filter">
+     <h2>公聽會類別</h2> 
     <div id="type" class="typebutton">  
       <input type="button" id="But1" class="type"  onclick="Change(1);" value="政治">
       <input type="button" id="But2" class="type"  onclick="Change(2);" value="經濟">
       <input type="button" id="But3" class="type"  onclick="Change(3);" value="環境">
-      <input type="button" id="But4" class="type"  onclick="Change(4);" value="性別">
-      <input type="button" id="But5" class="type"  onclick="Change(5);" value="教育">
-      <input type="button" id="But6" class="type"  onclick="Change(6);" value="保育">
-      <input type="button" id="But7" class="type"  onclick="Change(7);" value="種族">
-      <input type="button" id="But8" class="type"  onclick="Change(8);" value="治安">
+      <input type="button" id="But4" class="type"  onclick="Change(4);" value="保育">
+      <input type="button" id="But5" class="type"  onclick="Change(5);" value="內政">
+      <input type="button" id="But6" class="type"  onclick="Change(6);" value="外交">
+      <input type="button" id="But7" class="type"  onclick="Change(7);" value="財政">
+      <input type="button" id="But8" class="type"  onclick="Change(8);" value="法律">
+      <input type="button" id="But9" class="type"  onclick="Change(9);" value="教育">
+      <input type="button" id="But10" class="type"  onclick="Change(10);" value="社福">
+      <input type="button" id="But11" class="type"  onclick="Change(11);" value="文化">
+      <input type="button" id="But12" class="type"  onclick="Change(12);" value="科技">
     </div>
 </div>    
   
-
+<hr>
     <div class="SEARCH_Arrangement">
-      <h2>SORT</h2>
+      <h2>排序方式</h2>
     <div class="select"> 
     <select name="sort" id="sort">
-				<option value="a">時間 ↓</option>
-				<option value="b">時間 ↑</option>
-				<option value="c">人氣 ↓</option>
-				<option value="d">人氣 ↑</option>
+				<option value="a">時間 (順排)</option>
+				<option value="b">時間 (逆排)</option>
+				<option value="c">人氣 (順排)</option>
+				<option value="d">人氣 (逆排)</option>
 			</select>
     </div>
    
@@ -74,7 +80,7 @@
          <p class="name">「海峽兩岸服務貿易協定」第三場公聽會</p>      
          <p class="about">地點：立法院群賢樓九樓大禮堂<br>主席：江召集委員起臣</p></p>
     </div></a>
-    
+ <hr>   
 <a href="http://lis.ly.gov.tw/pubhearc/ttsbooki?N101473:0117-0176:_self">
     <div class="all">
     <p><img src="http://payload208.cargocollective.com/1/11/380934/6468832/Untitled-3.png">
@@ -82,27 +88,28 @@
          <p class="name">公聽會名稱</p>      
          <p class="about">Recently I was trying to create a web form where a user could enter a start time and end time to create a time window for a schedule. However, the easiest solution – having a user enter the times into two text boxes – seemed clunky and annoying to use.></p></p>
     </div></a>
-  
+<hr>  
       <div class="all">
     <p><img src="http://payload208.cargocollective.com/1/11/380934/6468832/Untitled-3.png">
          <p class="time"><span>5/16 1800</span></p>
          <p class="name">公聽會名稱</p>      
          <p class="about">Recently I was trying to create a web form where a user could enter a start time and end time to create a time window for a schedule. However, the easiest solution – having a user enter the times into two text boxes – seemed clunky and annoying to use.></p></p>
 </div>
-      <div class="all">
+<hr> 
+     <div class="all">
     <p><img src="http://payload208.cargocollective.com/1/11/380934/6468832/Untitled-3.png">
          <p class="time"><span>5/13 1800</span></p>
          <p class="name">公聽會名稱</p>      
          <p class="about">Recently I was trying to create a web form where a user could enter a start time and end time to create a time window for a schedule. However, the easiest solution – having a user enter the times into two text boxes – seemed clunky and annoying to use.</p></p>
       </div>
-
+<hr>
       <div class="all">
     <p><img src="http://payload208.cargocollective.com/1/11/380934/6468832/Untitled-3.png">
          <p class="time"><span>5/15 1800</span></p>
          <p class="name">公聽會名稱</p>      
          <p class="about">Recently I was trying to create a web form where a user could enter a start time and end time to create a time window for a schedule. However, the easiest solution – having a user enter the times into two text boxes – seemed clunky and annoying to use.></p></p>
       </div>
-
+<hr>
       <div class="all">
     <p><img src="http://payload208.cargocollective.com/1/11/380934/6468832/Untitled-3.png">
          <p class="time"><span>5/14 1800</span></p>
