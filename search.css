@@ -60,7 +60,7 @@ background: url(search.png) no-repeat;
 }
 #s {
 width: 170px;
-height: 20px;
+height: 30px;
 float: left;
 margin-left: -6px;
 margin-top: -6px;
@@ -71,9 +71,9 @@ font-family: Arial;
 }
 #r {
 width: 30px;
-height: 20px;
+height: 30px;
 margin-right: 12px;
-margin-top: -6px;
+margin-top: -20px;
 float: right;
 cursor: pointer;
 border: none;
@@ -170,6 +170,7 @@ top: 1px;
 }
 
 .click{
+color:white;
 display: inline-block;
 outline: none;
 cursor: pointer;
