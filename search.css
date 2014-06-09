@@ -60,7 +60,7 @@ background: url(search.png) no-repeat;
 }
 #s {
 width: 170px;
-height: 30px;
+height: 25px;
 float: left;
 margin-left: -6px;
 margin-top: -6px;
@@ -71,7 +71,7 @@ font-family: Arial;
 }
 #r {
 width: 30px;
-height: 30px;
+height: 25px;
 margin-right: 12px;
 margin-top: -30px;
 float: right;
