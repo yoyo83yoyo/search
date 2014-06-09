@@ -6,8 +6,22 @@
 
 
 html,body{
-  background-color: rgb(255,250,250);
-  text-align: center
+  background-color: #E6E6E6;
+  text-align: center;
+}
+
+hr{
+    border:0; 
+    height:1px; 
+    background-color:gray;
+	color:gray;
+    text-align: center;	
+}
+.right hr{
+    border:0; 
+    height:1px; 
+    background-color:gray;
+	color:gray;	
 }
 
 .container {
@@ -22,37 +36,48 @@ html,body{
       margin:0px 30px 0px 0px;
 }
 .right{
+      padding:10px;
       width: 830;
-      overflow: hidden
+      overflow: hidden;
+      background-color:white;
 }
 
 .SEARCH_Search{
     text-align: center;
     padding:10px;
+    margin-bottom:20px;
 }
 .SEARCH_Search h2{
-    text-align:right;
-    color:white;
-    background:rgb(150,30,40);
+    text-align:left;
+    color:gray;
+    font-family:'微軟正黑體'
 }
 #search {
-border-style: solid;
-border-width: 1px;
-border-color:rgb(150,30,40);
-  width: 160px;
-height: 25px;
-padding-left: 20px;
-margin-left:10px;
-float: center;
-background: url(http://lh4.ggpht.com/_HjB26hkIEK8/S4UX4mBAUJI/AAAAAAAAJ-w/lhFHjjiCmmw/Search%20007.gif) no-repeat;
+width: 200px;
+padding: 10px;
+float: left;
+background: url(search.png) no-repeat;
 }
 #s {
-margin-top:2px;
-width: 150px;
-height: 21px;
+width: 170px;
+height: 20px;
+float: left;
+margin-left: -6px;
+margin-top: -6px;
 border: none;
+background: none;
 color: #000000;
 font-family: Arial;
+}
+#r {
+width: 30px;
+height: 20px;
+margin-right: 12px;
+margin-top: -6px;
+float: right;
+cursor: pointer;
+border: none;
+background: none;
 }
 
 .SEARCH_Filter{
@@ -60,9 +85,9 @@ text-align: center;
     padding:10px;
 }
 .SEARCH_Filter h2{
-    text-align:right;
-    color:white;
-    background:rgb(150,30,40);
+    text-align:left;
+    color:gray;
+    font-family:'微軟正黑體'
 }
 .days_filter input{
     text-align: center
@@ -84,7 +109,7 @@ text-align: center;
 -webkit-appearance: none;
 border-radius: 5px;
 box-shadow: inset 0 0 5px #333;
-background-color: rgb(150,30,40);
+background-color: #990000;
 height: 10px;
         width:170px;
 vertical-align: middle;
@@ -93,15 +118,15 @@ input[type='range']::-moz-range-track {
 -moz-appearance: none;
 border-radius: 5px;
 box-shadow: inset 0 0 5px #333;
-background-color: rgb(150,30,40);
+background-color: #990000;
 height: 10px;
 }
 input[type='range']::-webkit-slider-thumb {
 -webkit-appearance: none !important;
 border-radius: 20px;
 background-color: #FFF;
-box-shadow:inset 0 0 10px rgb(250,200,200));
-border: 1px solid rgb(150,30,40);
+box-shadow:inset 0 0 10px rgb(250,200,200);
+border: 1px solid #990000;
 height: 20px;
 width: 20px;
 }
@@ -110,7 +135,7 @@ input[type='range']::-moz-range-thumb {
 border-radius: 20px;
 background-color: #FFF;
 box-shadow:inset 0 0 10px rgb(250,200,200);
-border: 1px solid rgb(150,30,40);
+border: 1px solid #990000;
 height: 20px;
 width: 20px;
 }
@@ -160,7 +185,7 @@ border-radius: .5em;
 -moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
 box-shadow: 0 1px 2px rgba(0,0,0,.2);
     font-family:'微軟正黑體';
-background-color:rgb(150,30,40)
+background-color:#990000
 }
 .click:visited {
 position: relative;
@@ -180,9 +205,9 @@ text-align: center;
     padding:10px;
 }
 .SEARCH_Arrangement h2{
-    text-align:right;
-    color:white;
-    background:rgb(150,30,40);
+    text-align:left;
+    color:gray;
+    font-family:'微軟正黑體'
 }
 .SEARCH_Arrangement select{
    background: transparent;
@@ -200,7 +225,7 @@ text-align: center;
    margin:0px 10px 0px 10px;
    height: 35px;
    overflow: hidden;
-   background: url(http://images.cnblogs.com/cnblogs_com/shishm/201203/201203021104209592.jpg) no-repeat left #ddd;
+   background: url(select.png) no-repeat left white;
 }
 
 .SEARCH_Arrangement option{
@@ -225,7 +250,6 @@ img{
 .all{
   width:830;
   height:210px;
-  background-color: rgb(250,250,240);
   margin:0px 0px 30px 0px;
 }
 
@@ -233,7 +257,6 @@ img{
   text-align:center;
   font-size: 15px;
   padding:15px 0px 0px 0px;
-  background-color: rgb(250,250,240);
   color:white;
 }
 .time span{
@@ -241,7 +264,7 @@ img{
   font-size: 20px;
   margin:0px 40px 0px 0px;
   padding:10px 150px 10px 150px;
-  background-color: rgb(150,30,40);
+  background-color: #990000;
   color:white;
 }
 
@@ -251,14 +274,12 @@ img{
   color:black;
   margin:0px 40px 10px 0px;
   font-family:'微軟正黑體';
-  background-color: rgb(250,250,240);
 }
 
 
 .about {
   width:780px;
   font-size: 1em;
-  background-color: rgb(250,250,240);
   color:black;
   font-family:'微軟正黑體';
 }
