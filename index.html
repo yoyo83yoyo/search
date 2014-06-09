@@ -40,7 +40,7 @@
    </form>   
      <h5>類別</h5>  
     <div id="type" class="typebutton">  
-      <input type="button" id="But1" class="type"  onclick="Change();" value="政治">
+      <input type="button" id="But1" class="type"  onclick="Change(But1);" value="政治">
       <input type="button" id="But2" class="type"  onclick="Change();" value="經濟">
       <input type="button" id="But3" class="type"  onclick="Change();" value="環境">
       <input type="button" id="But4" class="type"  onclick="Change();" value="性別">
@@ -116,13 +116,13 @@
   </body>
 
 <script language=javascript>
-function Change(){
-//    var cl=getElementById(ID);
-  if(But1.className === "click"){
-    But1.className = "type";
+function Change(id){
+    var cl=getElementById(id);
+  if(cl.className === "click"){
+    cl.className = "type";
   }
   else{
-  But1.className = "click";
+  cl.className = "click";
   }
   }
 
