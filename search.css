@@ -98,6 +98,7 @@ text-align: center;
 .SEARCH_Filter p{
   letter-spacing:35px;
   margin-left:33px;
+  margin-top:5px;
 }
 .days{
   margin-right:15px;
@@ -223,7 +224,7 @@ text-align: center;
 .SEARCH_Arrangement select{
    background: transparent;
    margin:5px 0px 0px 0px;
-    width: 200px;
+    width: 230px;
    padding:0px 0px 0px 40px;
    font-size: 16px;
    border-style: solid;
