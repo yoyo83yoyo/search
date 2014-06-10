@@ -53,6 +53,7 @@ hr{
     font-family:'微軟正黑體'
 }
 #search {
+margin-left:20px;
 width: 200px;
 padding: 10px;
 float: left;
@@ -60,7 +61,7 @@ background: url(search.png) no-repeat;
 }
 #s {
 width: 170px;
-height: 30px;
+height: 35px;
 float: left;
 margin-left: -6px;
 margin-top: -6px;
@@ -73,7 +74,7 @@ font-family: Arial;
 width: 30px;
 height: 30px;
 margin-right: 12px;
-margin-top: -20px;
+margin-top: -35px;
 float: right;
 cursor: pointer;
 border: none;
