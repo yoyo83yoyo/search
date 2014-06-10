@@ -32,7 +32,7 @@ hr{
   }
 .left {
       float: left;
-      width: 220;
+      width: 250;
       margin:0px 30px 0px 0px;
 }
 .right{
@@ -60,7 +60,7 @@ background: url(search.png) no-repeat;
 }
 #s {
 width: 170px;
-height: 25px;
+height: 30px;
 float: left;
 margin-left: -6px;
 margin-top: -6px;
@@ -73,7 +73,7 @@ font-family: Arial;
 width: 30px;
 height: 30px;
 margin-right: 12px;
-margin-top: -30px;
+margin-top: -20px;
 float: right;
 cursor: pointer;
 border: none;
@@ -94,16 +94,19 @@ text-align: center;
 }
 
 
-.SEARCH_Filter ul{
-  margin-right:30px;
+.SEARCH_Filter p{
+  letter-spacing:35px;
+  margin-left:33px;
 }
-.SEARCH_Filter li{
-  width:5px;
+.days{
+  margin-right:15px;
+  margin-top:-20px;
+}
+.days li{
   display: inline-block;
-  font-family:'微軟正黑體',sans-serif;
-  font-size: 15px;
-  margin-left:20px;
-  margin-top:5px;
+  font-family:'微軟正黑體';
+  font-size: 12px;
+  margin-left:15px;
 }
     input[type='range'] {
 -webkit-appearance: none;
@@ -141,6 +144,9 @@ width: 20px;
 }
 
 .type{
+border-style: solid;
+  border-color:gray;
+  border-width: 1px;
 display: inline-block;
 outline: none;
 cursor: pointer;
@@ -170,6 +176,9 @@ top: 1px;
 }
 
 .click{
+border-style: solid;
+  border-color:gray;
+  border-width: 1px;
 color:white;
 display: inline-block;
 outline: none;
