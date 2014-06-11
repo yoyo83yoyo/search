@@ -102,14 +102,14 @@ text-align: center;
   margin-top:5px;
 }
 .days{
-  margin-right:15px;
+  margin-right:12px;
   margin-top:-20px;
 }
 .days li{
   display: inline-block;
   font-family:'微軟正黑體';
   font-size: 12px;
-  margin-left:15px;
+  margin-left:12px;
 }
     input[type='range'] {
 -webkit-appearance: none;
