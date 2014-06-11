@@ -2,7 +2,7 @@ function messageGo(){
   
   var username = $('#But1').val();        
   var message = $('#days').val();             
-    $.ajax(
+    /*$.ajax(
       {
         url:"",        
         data:"&message="+message+"&username="+username, 
@@ -15,7 +15,14 @@ function messageGo(){
         success:function(){
         alert("123123");
         }
-    }); 
+    });*/ 
+    $.ajax({
+  type: 'POST',
+  url: url,
+  data: data,
+  success: success,
+  dataType: dataType
+});
 };
 /*function send(){
  var query = $('#query').valueOf();
