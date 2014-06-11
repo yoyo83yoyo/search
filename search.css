@@ -43,12 +43,12 @@ hr{
       background-color:white;
 }
 
-.SEARCH_Search{
+.Search_search{
     text-align: center;
     padding:10px;
     margin-bottom:20px;
 }
-.SEARCH_Search h2{
+.Search_search h2{
     text-align:left;
     color:gray;
     font-family:'微軟正黑體'
@@ -82,11 +82,11 @@ border: none;
 background: none;
 }
 
-.SEARCH_Filter{
+.Search_filter{
 text-align: center;
     padding:10px;
 }
-.SEARCH_Filter h2{
+.Search_filter h2{
     text-align:left;
     color:gray;
     font-family:'微軟正黑體'
@@ -96,7 +96,7 @@ text-align: center;
 }
 
 
-.SEARCH_Filter p{
+.Search_filter p{
   letter-spacing:35px;
   margin-left:33px;
   margin-top:5px;
@@ -145,7 +145,15 @@ border: 1px solid #990000;
 height: 20px;
 width: 20px;
 }
-
+.Search_type{
+text-align: center;
+    padding:10px;
+}
+.Search_type h2{
+    text-align:left;
+    color:gray;
+    font-family:'微軟正黑體';
+}
 .type{
 border-style: solid;
   border-color:gray;
@@ -213,16 +221,16 @@ top: 1px;
 }
 
 
-.SEARCH_Arrangement{
+.Search_sort{
 text-align: center;
     padding:10px;
 }
-.SEARCH_Arrangement h2{
+.Search_sort h2{
     text-align:left;
     color:gray;
     font-family:'微軟正黑體'
 }
-.SEARCH_Arrangement select{
+.Search_sort select{
    background: transparent;
    margin:5px 0px 0px 0px;
     width: 230px;
@@ -241,7 +249,7 @@ text-align: center;
    background: url(select.png) no-repeat left white;
 }
 
-.SEARCH_Arrangement option{
+.Search_sort option{
   font-size: 15px;
   font-family:'微軟正黑體';
 }
