@@ -2,21 +2,22 @@ function messageGo(){
   
   var username = $('#type').val();        
   var message = $('#days').val();             
-    $.ajax({
+    $.ajax(
+      {
         url:"",        
         data:"&message="+message+"&username="+username, 
         
-                type : "POST",         
+        type : "POST",         
         dataType:'json', 
         error:function(){ 
         alert("132");
         },
-        success:function()
+        success:function(){
         alert("123123");
         }
     }); 
-}
-function send(){
+};
+/*function send(){
  var query = $('#query').valueOf();
     $.ajax({
         url: '/yoyo83yoyo/search',
@@ -35,3 +36,4 @@ function send(){
         }
     });
 });
+*/
