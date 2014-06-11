@@ -5,7 +5,7 @@ function messageGo(){
   var message = $('#days').val();             
     $.ajax({
         //�i�D�{�������n�ǰe������ 
-        url:"message.php",
+        url:"search.parseapp.com",
         //�ݭn�ǰe������
 data:"&message="+message+"&username="+username, 
          //�ϥ�POST���k     
