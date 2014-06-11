@@ -1,6 +1,6 @@
 function messageGo(){
   
-  var username = $('#type').val();        
+  var username = $('#But1').val();        
   var message = $('#days').val();             
     $.ajax(
       {
