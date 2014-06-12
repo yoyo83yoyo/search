@@ -8,12 +8,21 @@ h3{
 .right{
       background-color:white;
 }
+
 hr{
     border:0; 
     height:1px; 
     background-color:gray;
 	color:gray;
     text-align: center;	
+}
+.right hr{
+    border:0; 
+    height:1px; 
+    background-color:gray;
+	color:gray;
+    text-align: center;	
+    width:80%; 
 }
 .Search_search{
   margin-bottom:-20px;
@@ -27,7 +36,7 @@ background: url(search.png) no-repeat;
 }
 #s {
 width: 170px;
-height: 30px;
+height: 40px;
 float: left;
 margin-left: -10px;
 margin-top: -10px;
@@ -51,6 +60,7 @@ background: none;
   margin-left:5px;
   margin-top:-10px;
   margin-bottom:-2px;
+  color:gray;
 }
 .days li{
   display: inline-block;
@@ -94,6 +104,7 @@ height: 20px;
 width: 20px;
 }
 .type{
+color:gray;
 border-style: solid;
   border-color:gray;
   border-width: 1px;
@@ -193,20 +204,25 @@ top: 1px;
 }
 
 img{
-  height:280px;
+  height:300px;
+  width:400px;
 }
 
-
-.time span{
+.Search_time{
+  margin-top:10px;
+  font-size: 1.5em;
+  color:white;
   background-color:#990000;
-  padding-left:100px;
-  padding-right:100px;
+  padding:10px 100px 10px 100px;
 }
-
+.Search_name{
+  padding-left:1.5em;
+  padding-right:1.5em;
+  color:black;
+}
 p{
   font-family:'微軟正黑體';
 }
-
 a {
   color: #000000;
   text-decoration: none;
