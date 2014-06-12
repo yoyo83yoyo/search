@@ -1,37 +1,39 @@
 <html>
   <head>
     <title>公聽會搜尋頁</title>
-    <link rel="stylesheet" type="text/css" href="search.css">
-    <script type="text/javascript" src="http://search.js"></script>
+   <!-- <link rel="stylesheet" type="text/css" href="search.css">
+    <script type="text/javascript" src="http://search.js"></script>-->
+<link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
      <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
     <link rel="stylesheet" type="text/css" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/themes/dot-luv/jquery-ui.css" />
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>  
 </head>
   
+
 <body>
-    <div class='container'>
-    <div class="left" id="left">
-    <div class="Search_search">
-      <p><h2>關鍵字搜尋</h2></p>
+    <div class="container">
+    <div class="col-md-3" id="left">
+    <div class="Search_search col-md-11">
+      <p><h3>關鍵字搜尋</h3></p>
     <div>
-<form id='search' action='' method='post'>
-<input type="hidden" name="sitesearch" value="網址" />
-<input id="s" name="q" type="text" value="" />
-<input id="r" type="submit" value="" />
+<form id='search' action='' method='post' >
+<input type="hidden" name="sitesearch" value="網址" >
+<input id="s" name="q" type="text" value="" class="form-control input-lg">
+<input id="r" type="submit" value="" >
 </form>
       </div>
 </div>
 
-    <hr>
-    <div class="Search_days">
-      <h2>幾天之內</h2>
+    <hr class="col-md-9">
+    <div class="Search_days col-md-11">
+      <h3>幾天之內</h3>
 
-<form action="form_action.asp"  class="days_filter" id="days">
+<form action="form_action.asp text-center"  class="days" id="days">
   <input id="days" type="range" name="days" min="1" max="5">   
 </form>      
 <p>|||||</p>
-<ul class="days">
+<ul class="list-inline">
   <li>過去</li>
   <li>今天</li>
   <li>10天</li>
@@ -39,9 +41,9 @@
   <li>30天</li>
   </ul>  
       </div>
-<hr>
-      <div class="Search_type">
-     <h2>公聽會類別</h2> 
+<hr class="col-md-9">
+      <div class="Search_type col-md-10">
+     <h3>公聽會類別</h3> 
     <div id="type" class="typebutton">  
       <input type="button" id="But1" class="type"  onclick="Change(1);messageGo();" value="政治">
       <input type="button" id="But2" class="type"  onclick="Change(2);" value="經濟">
@@ -58,10 +60,10 @@
     </div>
 </div>    
   
-<hr>
-    <div class="Search_sort">
-      <h2>排序方式</h2>
-    <div class="select"> 
+<hr class="col-md-9">
+    <div class="Search_sort col-md-11">
+      <h3>排序方式</h3>
+    <div class="select form-control input-sm"> 
     <select name="sort" id="sort">
 				<option value="a">時間 (順排)</option>
 				<option value="b">時間 (逆排)</option>
@@ -74,48 +76,49 @@
   </div>
 
   
-  <div class="right">
-       <a href="http://lis.ly.gov.tw/pubhearc/ttsbooki?N101473:0117-0176:_self"><div class="all">
-    <p><img src="http://payload208.cargocollective.com/1/11/380934/6468832/Untitled-3.png">
-        <p class="time"><span>5/13 1900</span></p>
-         <p class="name">「海峽兩岸服務貿易協定」第三場公聽會</p>      
-         <p class="about">地點：立法院群賢樓九樓大禮堂<br>主席：江召集委員起臣</p></p>
+  <div class="col-md-9 right">
+       <a href="http://lis.ly.gov.tw/pubhearc/ttsbooki?N101473:0117-0176:_self">
+<div class="container">
+    <p><img src="http://payload208.cargocollective.com/1/11/380934/6468832/Untitled-3.png" class="col-md-4 img-rounded">
+        <p class="time col-md-8"><div calss="col-md-8">5/13 1900</div></p>
+    <p class="col-md-8">「海峽兩岸服務貿易協定」第三場公聽會</p>      
+         <p class="col-md-8">地點：立法院群賢樓九樓大禮堂<br>主席：江召集委員起臣</p></p>
     </div></a>
- <hr>   
+ <hr class="col-md-12">   
 <a href="http://lis.ly.gov.tw/pubhearc/ttsbooki?N101473:0117-0176:_self">
-    <div class="all">
-    <p><img src="http://payload208.cargocollective.com/1/11/380934/6468832/Untitled-3.png">
-      <p class="time"><span>5/12 1800</span></p>
-         <p class="name">公聽會名稱</p>      
-         <p class="about">Recently I was trying to create a web form where a user could enter a start time and end time to create a time window for a schedule. However, the easiest solution – having a user enter the times into two text boxes – seemed clunky and annoying to use.></p></p>
+    <div class="container">
+    <p><img src="http://payload208.cargocollective.com/1/11/380934/6468832/Untitled-3.png" class="col-md-4">
+      <p class="col-md-5"><span>5/12 1800</span></p>
+         <p class="col-md-5">公聽會名稱</p>      
+         <p class="col-md-5">Recently I was trying to create a web form where a user could enter a start time and end time to create a time window for a schedule. However, the easiest solution – having a user enter the times into two text boxes – seemed clunky and annoying to use.></p></p>
     </div></a>
-<hr>  
-      <div class="all">
-    <p><img src="http://payload208.cargocollective.com/1/11/380934/6468832/Untitled-3.png">
-         <p class="time"><span>5/16 1800</span></p>
-         <p class="name">公聽會名稱</p>      
-         <p class="about">Recently I was trying to create a web form where a user could enter a start time and end time to create a time window for a schedule. However, the easiest solution – having a user enter the times into two text boxes – seemed clunky and annoying to use.></p></p>
+<hr class="col-md-12">  
+      <div class="container">
+    <p><img src="http://payload208.cargocollective.com/1/11/380934/6468832/Untitled-3.png" class="col-md-4">
+         <p class="col-md-8"><span>5/16 1800</span></p>
+         <p class="col-md-8">公聽會名稱</p>      
+         <p class="col-md-8">Recently I was trying to create a web form where a user could enter a start time and end time to create a time window for a schedule. However, the easiest solution – having a user enter the times into two text boxes – seemed clunky and annoying to use.></p></p>
 </div>
-<hr> 
-     <div class="all">
-    <p><img src="http://payload208.cargocollective.com/1/11/380934/6468832/Untitled-3.png">
-         <p class="time"><span>5/13 1800</span></p>
-         <p class="name">公聽會名稱</p>      
-         <p class="about">Recently I was trying to create a web form where a user could enter a start time and end time to create a time window for a schedule. However, the easiest solution – having a user enter the times into two text boxes – seemed clunky and annoying to use.</p></p>
+<hr class="col-md-12"> 
+     <div class="container">
+    <p><img src="http://payload208.cargocollective.com/1/11/380934/6468832/Untitled-3.png" class="col-md-4">
+         <p class="col-md-8"><span>5/13 1800</span></p>
+         <p class="col-md-8">公聽會名稱</p>      
+         <p class="col-md-8">Recently I was trying to create a web form where a user could enter a start time and end time to create a time window for a schedule. However, the easiest solution – having a user enter the times into two text boxes – seemed clunky and annoying to use.</p></p>
       </div>
-<hr>
-      <div class="all">
-    <p><img src="http://payload208.cargocollective.com/1/11/380934/6468832/Untitled-3.png">
-         <p class="time"><span>5/15 1800</span></p>
-         <p class="name">公聽會名稱</p>      
-         <p class="about">Recently I was trying to create a web form where a user could enter a start time and end time to create a time window for a schedule. However, the easiest solution – having a user enter the times into two text boxes – seemed clunky and annoying to use.></p></p>
+<hr class="col-md-12">
+      <div class="container">
+    <p><img src="http://payload208.cargocollective.com/1/11/380934/6468832/Untitled-3.png" class="col-md-4">
+         <p class="col-md-8"><span>5/15 1800</span></p>
+         <p class="col-md-8">公聽會名稱</p>      
+         <p class="col-md-8">Recently I was trying to create a web form where a user could enter a start time and end time to create a time window for a schedule. However, the easiest solution – having a user enter the times into two text boxes – seemed clunky and annoying to use.></p></p>
       </div>
-<hr>
-      <div class="all">
-    <p><img src="http://payload208.cargocollective.com/1/11/380934/6468832/Untitled-3.png">
-         <p class="time"><span>5/14 1800</span></p>
-         <p class="name">公聽會名稱</p>      
-         <p class="about">Recently I was trying to create a web form where a user could enter a start time and end time to create a time window for a schedule. However, the easiest solution – having a user enter the times into two text boxes – seemed clunky and annoying to use.</p></p>
+<hr class="col-md-12">
+      <div class="container">
+    <p><img src="http://payload208.cargocollective.com/1/11/380934/6468832/Untitled-3.png" class="col-md-4">
+         <p class="col-md-8"><span>5/14 1800</span></p>
+         <p class="col-md-8">公聽會名稱</p>      
+         <p class="col-md-8">Recently I was trying to create a web form where a user could enter a start time and end time to create a time window for a schedule. However, the easiest solution – having a user enter the times into two text boxes – seemed clunky and annoying to use.</p></p>
     </div>
   </div>
   </div>
