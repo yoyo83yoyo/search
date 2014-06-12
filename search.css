@@ -26,7 +26,7 @@ background: url(search.png) no-repeat;
 width: 170px;
 height: 35px;
 float: left;
-margin-left: -30px;
+margin-left: 0px;
 margin-top: -12px;
 border: none;
 background: none;
@@ -45,7 +45,7 @@ background: none;
 
 .Search_days p{
   letter-spacing:35px;
-  margin-left:8px;
+  margin-left:5px;
   margin-top:-10px;
   margin-bottom:-2px;
 }
