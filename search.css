@@ -12,7 +12,9 @@ hr{
 	color:black;
     text-align: center;	
 }
-
+.Search_search{
+  margin-bottom:-20px;
+}
 #search {
 margin-left:20px;
 width: 200px;
@@ -59,7 +61,7 @@ border-radius: 5px;
 box-shadow: inset 0 0 5px #333;
 background-color: #990000;
 height: 10px;
-        width:170px;
+width:170px;
 vertical-align: middle;
 }
 input[type='range']::-moz-range-track {
@@ -162,19 +164,20 @@ top: 1px;
 
 .Search_sort select{
    background: transparent;
-   margin:5px 0px 0px 0px;
-    width: 170px;
-   padding:0px 0px 0px 40px;
+   margin:0px 0px 0px 0px;
+   width: 170px;
    font-size: 16px;
+    padding-left:20px;
    border-style: solid;
-   border-width: 0px;
-   height: 34px;
+   height: 25px;
    -webkit-appearance: none;
    font-family:'微軟正黑體';
 }
+
 .select {
-   margin:0px 10px 0px 10px;
-   height: 35px;
+   margin:0px 0px 0px 0px;
+   height: 30px;
+   width:170px;
    overflow: hidden;
    background: url(select.png) no-repeat left white;
 }
@@ -183,22 +186,26 @@ top: 1px;
   font-size: 15px;
   font-family:'微軟正黑體';
 }
+
 img{
   height:280px;
 }
+
 .time div{
   background-color:#990000;
   padding-left:100px;
   padding-right:100px;
 }
+
 p{
   font-family:'微軟正黑體';
-  font-size:1.2em;
 }
+
 a {
   color: #000000;
   text-decoration: none;
 }
+
 a:hover,
 a:focus {
   color: rgb(26,26,26);
