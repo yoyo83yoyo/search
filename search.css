@@ -190,7 +190,7 @@ top: 1px;
    background: transparent;
    margin-left:0px;
    margin-top:0px;
-   width: 200px;
+   width: 170px;
    font-size: 16px;
    padding-left:0px;
    border-style: solid;
@@ -236,7 +236,12 @@ a {
   color: #000000;
   text-decoration: none;
 }
-
+.Search_select img{
+  float:right;
+  width:30px;
+  height:30px;
+  margin-bottom:-35px;
+}
 a:hover,
 a:focus {
   color: rgb(26,26,26);
