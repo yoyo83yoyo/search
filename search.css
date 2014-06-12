@@ -8,15 +8,15 @@ html,body{
 hr{
     border:0; 
     height:1px; 
-    background-color:black;
-	color:black;
+    background-color:gray;
+	color:gray;
     text-align: center;	
 }
 .Search_search{
   margin-bottom:-20px;
 }
 #search {
-margin-left:0px;
+margin-left:-5px;
 width: 200px;
 padding: 10px;
 float: left;
