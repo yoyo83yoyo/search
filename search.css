@@ -41,7 +41,7 @@ background: url(search.png) no-repeat;
 float:left;
 margin-top:-10px;
 margin-left:-10px;
-width:170px;
+width:165px;
 height:30px;
 padding:0px 10px 0px 10px;
 border: none;
@@ -52,7 +52,7 @@ color: #000000;*/
 margin-top:-10px;
 margin-right:-11px;
 float: right;
-width:25px;
+width:30px;
 height: 30px;
 cursor: pointer;
 /*border: none;
