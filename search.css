@@ -190,7 +190,7 @@ top: 1px;
    background: transparent;
    margin-left:0px;
    margin-top:0px;
-   width: 170px;
+   width: 190px;
    font-size: 16px;
    padding-left:0px;
    border-style: solid;
@@ -246,11 +246,4 @@ a:hover,
 a:focus {
   color: rgb(26,26,26);
   text-decoration: none;
-}
-.Search_select img{
-  z-index:20px;
-  float:right;
-  width:30px;
-  height:30px;
-  margin-bottom:-35px;
 }
