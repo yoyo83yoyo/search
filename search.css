@@ -201,7 +201,8 @@ top: 1px;
 }
 
 .Search_select {
-   margin:0px 0px -5px 0px;
+  z-index:5px;
+   margin:0px 0px 0px 0px;
    height: 35px;
    width:170px;
    overflow: hidden;
@@ -209,6 +210,7 @@ top: 1px;
 }
 
 .Search_sort option{
+  z-index:-5px;
   font-size: 15px;
   font-family:'微軟正黑體';
 }
