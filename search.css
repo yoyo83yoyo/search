@@ -5,24 +5,27 @@ h3{
   font-family:'微軟正黑體';
   color:gray;
 }
+.left{
+  margin-bottom:100px;
+}
 .right{
       background-color:white;
 }
 
 hr{
-    border:0; 
-    height:1px; 
+    border:0;
+    height:1px;
     background-color:gray;
-	color:gray;
+color:gray;
     text-align: center;	
 }
 .right hr{
-    border:0; 
-    height:1px; 
+    border:0;
+    height:1px;
     background-color:gray;
-	color:gray;
+color:gray;
     text-align: center;	
-    width:80%; 
+    width:80%;
 }
 .Search_search{
   margin-bottom:-20px;
@@ -34,25 +37,23 @@ padding: 10px;
 float: left;
 background: url(search.png) no-repeat;
 }
-#s {
-width: 170px;
-height: 35px;
-float: left;
-margin-left: -10px;
-margin-top: -10px;
+#search_text {
+float:left;
+margin-left:-30px;
+width:170px;
+height:30px;
+padding:0px 10px 0px 10px;
 border: none;
-background: none;
-color: #000000;
+/*background: none;
+color: #000000;*/
 }
-#r {
-width: 30px;
-height: 35px;
-margin-left: 5px;
-margin-top: -20px;
+#sub_btn {
 float: right;
+width:30px;
+height: 30px;
 cursor: pointer;
-border: none;
-background: none;
+/*border: none;
+background: none;*/
 }
 
 .Search_days p{
