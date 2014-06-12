@@ -168,20 +168,20 @@ top: 1px;
 
 .Search_sort select{
    background: transparent;
-   margin-left:-10px;
-   margin-top:-5px;
-   width: 172px;
+   margin-left:0px;
+   margin-top:0px;
+   width: 170px;
    font-size: 16px;
-    padding-left:37px;
+   padding-left:35px;
    border-style: solid;
-   height: 32px;
+   height: 35px;
    -webkit-appearance: none;
    font-family:'微軟正黑體';
 }
 
-.select {
+.Search_select {
    margin:0px 0px 0px 0px;
-   height: 30px;
+   height: 35px;
    width:170px;
    overflow: hidden;
    background: url(select.png) no-repeat left white;
@@ -196,7 +196,8 @@ img{
   height:280px;
 }
 
-.time div{
+
+.time span{
   background-color:#990000;
   padding-left:100px;
   padding-right:100px;
