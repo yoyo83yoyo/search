@@ -39,6 +39,7 @@ margin-top:10px;
 width: 200px;
 padding: 10px;
 float: left;
+background: url(search.png) no-repeat;
 }
 #search_text {
 border-radius: 0px;
@@ -200,7 +201,7 @@ top: 1px;
 }
 
 .Search_select {
-   margin:0px 0px 0px 0px;
+   margin:2px 0px 0px 0px;
    height: 35px;
    width:170px;
    overflow: hidden;
