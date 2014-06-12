@@ -188,11 +188,11 @@ top: 1px;
 
 .Search_sort select{
    background: transparent;
-   margin-left:0px;
-   margin-top:0px;
+   margin-left:-5px;
+   margin-top:-25px;
    width: 200px;
    font-size: 16px;
-   padding-left:0px;
+   padding-left:20px;
    border-style: solid;
    height: 35px;
    -webkit-appearance: none;
@@ -200,11 +200,13 @@ top: 1px;
 }
 
 .Search_select {
+   padding-top:10px;
+   padding-left:5px;
    margin:2px 0px 100px 0px;
    height: 35px;
    width:170px;
    overflow: hidden;
-   background: url(select.png) no-repeat right white;
+   background:white;
 }
 
 .Search_sort option{
