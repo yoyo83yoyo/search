@@ -198,10 +198,11 @@ top: 1px;
    height: 35px;
    -webkit-appearance: none;
    font-family:'微軟正黑體';
+  z-index:5px;
 }
 
 .Search_select {
-  z-index:5px;
+  z-index:-5px;
    margin:0px 0px 0px 0px;
    height: 35px;
    width:170px;
@@ -210,7 +211,7 @@ top: 1px;
 }
 
 .Search_sort option{
-  z-index:-5px;
+
   font-size: 15px;
   font-family:'微軟正黑體';
 }
