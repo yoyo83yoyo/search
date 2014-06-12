@@ -7,14 +7,14 @@
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
      <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
     <link rel="stylesheet" type="text/css" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/themes/dot-luv/jquery-ui.css" />
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>  
      <link rel="stylesheet" type="text/css" href="search.css">
 </head>
   
 
 <body>
     <div class="container">
-    <div class="col-md-3" id="left">
+    <div class="col-md-3 col-lg-3" id="left">
     <div class="row"> 
     <div class="Search_search col-md-12">
       <p><h3>關鍵字搜尋</h3></p>
@@ -24,9 +24,10 @@
 </form>      
 </div>
       </div>
+      
     <hr class="col-md-9">
+<div class="row">  
     <div class="Search_days col-md-12">
-<div class="row">      
 <h3>幾天之內</h3>
 
 <form action="form_action.asp text-center"  class="Searchdays" id="days">
@@ -42,9 +43,9 @@
   </ul>  
       </div>
       </div>
-<hr class="col-md-9">
+<hr class="col-md-9"><div class="row"> 
       <div class="Search_type col-md-12">
-<div class="row">     
+    
 <h3>公聽會類別</h3> 
     <div id="type" class="typebutton col-md-9">  
       <input type="button" id="But1" class="type"  onclick="Change(1);messageGo();" value="政治">
@@ -62,16 +63,17 @@
     </div>
 </div>    
       </div>
-<hr class="col-md-9">
+<hr class="col-md-9">      
+<div class="row">
     <div class="Search_sort col-md-12">
-      <div class="row">
       <h3>排序方式</h3>
-    <div class="Search_select"> 
-    <select name="sort" id="sort" class="form-control input-sm">
+    <div class="Search_select glyphicon glyphicon-chevron-down"> 
+    <select name="sort" id="sort" class="form-control input-sm glyphicon ">
 				<option value="a">時間 (順排)</option>
 				<option value="b">時間 (逆排)</option>
 				<option value="c">人氣 (順排)</option>
 				<option value="d">人氣 (逆排)</option>
+                
 			</select>
     </div>
       </div>
@@ -83,10 +85,10 @@
 
 <a href="http://lis.ly.gov.tw/pubhearc/ttsbooki?N101473:0117-0176:_self">
 <div class="row">
-<div class="col-md-6">
+<div class="col-md-6 col-lg-6 col-sm-6">
 <img src="http://payload208.cargocollective.com/1/11/380934/6468832/Untitled-3.png" class="img-rounded">
   </div>
-  <div class="col-md-6 Search_listen">
+  <div class="col-md-6 col-lg-6 col-sm-6 Search_listen">
     <div class="Search_time text-center"><strong>三天後！</strong></div>
     <h3 class="Search_name"><strong>「海峽兩岸服務貿易協定」第三場公聽會</strong></h3>     
 <p class="Search_about ">戰役時間：<br>戰役地點：立法院群賢樓九樓大禮堂<br>對手陣營：<br>戰役主持：江召集委員起臣</p>
