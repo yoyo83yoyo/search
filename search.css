@@ -39,7 +39,6 @@ margin-top:10px;
 width: 200px;
 padding: 10px;
 float: left;
-background: url(search.png) no-repeat;
 }
 #search_text {
 border-radius: 0px;
@@ -55,7 +54,7 @@ color: #000000;
 }
 #sub_btn {
 margin-top:-11px;
-margin-right:-11px;
+margin-right:-10px;
 float: right;
 width:30px;
 height: 30px;
@@ -191,19 +190,17 @@ top: 1px;
    background: transparent;
    margin-left:0px;
    margin-top:0px;
-   width: 170px;
+   width: 200px;
    font-size: 16px;
    padding-left:0px;
    border-style: solid;
    height: 35px;
    -webkit-appearance: none;
    font-family:'微軟正黑體';
-  z-index:5px;
 }
 
 .Search_select {
-  z-index:-5px;
-   margin:0px 0px 0px 0px;
+   margin:2px 0px 0px 0px;
    height: 35px;
    width:170px;
    overflow: hidden;
@@ -211,7 +208,6 @@ top: 1px;
 }
 
 .Search_sort option{
-
   font-size: 15px;
   font-family:'微軟正黑體';
 }
