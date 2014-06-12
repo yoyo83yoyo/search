@@ -16,7 +16,7 @@ hr{
   margin-bottom:-20px;
 }
 #search {
-margin-left:-5px;
+margin-left:0px;
 width: 200px;
 padding: 10px;
 float: left;
@@ -26,7 +26,7 @@ background: url(search.png) no-repeat;
 width: 170px;
 height: 35px;
 float: left;
-margin-left: 0px;
+margin-left: -5px;
 margin-top: -12px;
 border: none;
 background: none;
