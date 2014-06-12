@@ -16,14 +16,14 @@ hr{
   margin-bottom:-20px;
 }
 #search {
-margin-left:20px;
-width: 170px;
+margin-left:0px;
+width: 200px;
 padding: 10px;
 float: left;
 background: url(search.png) no-repeat;
 }
 #s {
-width: 200px;
+width: 170px;
 height: 35px;
 float: left;
 margin-left: -30px;
@@ -164,7 +164,8 @@ top: 1px;
 
 .Search_sort select{
    background: transparent;
-   margin-left:-5px;
+   margin-left:-8px;
+   margin-top:-5px;
    width: 170px;
    font-size: 16px;
     padding-left:35px;
