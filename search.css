@@ -45,8 +45,8 @@ width:165px;
 height:30px;
 padding:0px 10px 0px 10px;
 border: none;
-/*background: none;
-color: #000000;*/
+background: none;
+color: #000000;
 }
 #sub_btn {
 margin-top:-10px;
@@ -55,8 +55,8 @@ float: right;
 width:30px;
 height: 30px;
 cursor: pointer;
-/*border: none;
-background: none;*/
+border: none;
+background: none;
 }
 
 .Search_days p{
