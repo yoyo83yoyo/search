@@ -1,56 +1,31 @@
-function messageGo(){
+function messageGo2(num){
+             
+  var send='But'+num;
   
-  var username = $('#But1').val();        
-  var message = $('#days').val();             
-    /*$.ajax(
-      {
-        url:"",        
-        data:"&message="+message+"&username="+username, 
-        
-        type : "POST",         
+    $.ajax({
+
+        url:"",                            
+        data:send,  
+
+        type : "POST",                                   
         dataType:'json', 
-        error:function(){ 
-        alert("132");
+
+        error:function(){                              
+        alert("失敗");
+
         },
-        success:function(){
-        alert("123123");
+        success:function(){                                                           
+        alert("成功");
         }
-    });*/ 
-    $.ajax({
-  type: 'POST',
-  url: url,
-  data: data,
-  success: success,
-  dataType: dataType
-});
-};
-/*function send(){
- var query = $('#query').valueOf();
-    $.ajax({
-        url: '/yoyo83yoyo/search',
-        type: "POST",
-        data: query,
-        dataType: 'application/json; charset=utf-8',
-        success: function (data) {
-            alert(data);
-            for (var x = 0; x < data.length; x++) {
-                content = data[x].Id;
-                content += "<br>";
-                content += data[x].Name;
-                content += "<br>";
-                $(content).appendTo("#ProductList");
-            }
-        }
-    });
-});
-*/
-$("button").click(function(){
-  $.post("demo_test_post.asp",
-  {
-    name:"Donald Duck",
-    city:"Duckburg"
-  },
-  function(data,status){
-    alert("Data: " + data + "\nStatus: " + status);
-  });
-});
+    }); 
+}
+
+function Change(num){
+    var cl=document.getElementById('But'+num);
+  if(cl.className === "click"){
+    cl.className = "type";
+  }
+  else{
+  cl.className = "click";
+  }
+  }
