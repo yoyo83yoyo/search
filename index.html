@@ -19,8 +19,8 @@
     <div class="Search_search col-md-12">
       <p><h3>關鍵字搜尋</h3></p>
 <form id="search" method="POST">
-<input id="search_text" name="search" type="text" class="form-control input-lg" placeholder="search">
-<button id="sub_btn" type="submit" value="" class="glyphicon glyphicon-search" onClick="messageGo();">
+<input id="search_text" name="search_text" type="text" class="form-control input-lg" placeholder="search">
+<button id="sub_btn" type="button" value="" class="glyphicon glyphicon-search" onClick="messageGo();">
 </form>      
 </div>
       </div>
@@ -125,7 +125,6 @@ function messageGo(){
     $.ajax({
         url:search,                            
         data:,  
-
         type : "POST",                                   
         dataType:'json', 
         error:function(){                              
