@@ -30,8 +30,8 @@
     <div class="Search_days col-md-12">
 <h3>幾天之內</h3>
 
-<form action="form_action.asp text-center"  class="Searchdays" id="days">
-  <input id="days" type="range" name="days" min="1" max="5">   
+<form  class="Searchdays" id="Searchdays">
+  <input id="days" type="range" name="days" min="1" max="5" autofocus="messageGo3();">   
 </form>      
 <p>|||||</p>
 <ul class="list-inline days">
@@ -125,6 +125,22 @@ function messageGo(){
     $.ajax({
         url:"",                            
         data:search,  
+        type : "POST",                                   
+        dataType:'json', 
+        error:function(){                              
+        alert("失敗");
+        },
+        success:function(){                                                           
+        alert("成功");
+        }
+    }); 
+}
+
+function messageGo3(){
+  var range = $('#days').val();        
+    $.ajax({
+        url:"",                            
+        data:range,  
         type : "POST",                                   
         dataType:'json', 
         error:function(){                              
