@@ -18,9 +18,9 @@
     <div class="row"> 
     <div class="Search_search col-md-12">
       <p><h3>關鍵字搜尋</h3></p>
-<form id="search" action="" method="post">
+<form id="search" method="POST">
 <input id="search_text" name="search" type="text" class="form-control input-lg" placeholder="search">
-<button id="sub_btn" type="submit" value="" class="glyphicon glyphicon-search">
+<button id="sub_btn" type="submit" value="" class="glyphicon glyphicon-search" onClick="messageGo();">
 </form>      
 </div>
       </div>
@@ -120,6 +120,23 @@
   </body>
 
 <script language=javascript>
+function messageGo(){
+  var search = $('#search_text').val();        
+    $.ajax({
+        url:search,                            
+        data:,  
+
+        type : "POST",                                   
+        dataType:'json', 
+        error:function(){                              
+        alert("失敗");
+        },
+        success:function(){                                                           
+        alert("成功");
+        }
+    }); 
+}
+
 function Change(num){
     var cl=document.getElementById('But'+num);
   if(cl.className === "click"){
