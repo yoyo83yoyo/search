@@ -3,12 +3,12 @@
     <title>公聽會搜尋頁</title>
 
     <script type="text/javascript" src="http://search.js"></script>
-<link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
-     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
     <link rel="stylesheet" type="text/css" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/themes/dot-luv/jquery-ui.css" />
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>  
-     <link rel="stylesheet" type="text/css" href="search.css">
+    <link rel="stylesheet" type="text/css" href="search.css">
 </head>
   
 
@@ -70,7 +70,7 @@
     <div class="Search_sort col-md-12">
       <h3>排序方式</h3>
     <div class="Search_select glyphicon glyphicon-chevron-down"> 
-    <select name="sort" id="sort" class="form-control input-sm glyphicon ">
+    <select name="sort" id="searchsort" class="form-control input-sm glyphicon" onClick="messageGo4();">
 				<option value="a">時間 (順排)</option>
 				<option value="b">時間 (逆排)</option>
 				<option value="c">人氣 (順排)</option>
@@ -182,6 +182,23 @@ function messageGo2(num){
         }
     }); 
 }
+
+function messageGo4(){
+  var sort = $('#searchsort').val();        
+    $.ajax({
+        url:"",                            
+        data:sort,  
+        type : "POST",                                   
+        dataType:'json', 
+        error:function(){                              
+        alert("失敗");
+        },
+        success:function(){                                                           
+        alert("成功");
+        }
+    }); 
+}
+
 </script>
 
 
