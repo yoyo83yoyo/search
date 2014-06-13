@@ -123,8 +123,8 @@
 function messageGo(){
   var search = $('#search_text').val();        
     $.ajax({
-        url:search,                            
-        data:,  
+        url:"",                            
+        data:search,  
         type : "POST",                                   
         dataType:'json', 
         error:function(){                              
