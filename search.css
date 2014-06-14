@@ -190,9 +190,9 @@ top: 1px;
    background: transparent;
    margin-left:-5px;
    margin-top:-25px;
-   width: 200px;
+   width: 170px;
    font-size: 16px;
-   padding-left:20px;
+   padding-left:0px;
    padding-bottom:5px;
    border-style: solid;
    height: 35px;
@@ -201,6 +201,7 @@ top: 1px;
 }
 
 .Search_select {
+    float:right;
    padding-top:10px;
    padding-left:5px;
    margin:2px 0px 100px 0px;
