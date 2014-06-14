@@ -31,7 +31,7 @@
 <h3>幾天之內</h3>
 
 <form  class="Searchdays" id="Searchdays">
-  <input id="days" type="range" name="days" min="1" max="5" onClick="messageGo3();">   
+  <input id="days" type="range" name="days" min="1" max="5" onChange="messageGo3();">   
 </form>      
 <p>|||||</p>
 <ul class="list-inline days">
@@ -70,7 +70,7 @@
     <div class="Search_sort col-md-12">
       <h3>排序方式</h3>
     <div class="Search_select glyphicon glyphicon-chevron-down"> 
-    <select name="sort" id="searchsort" class="form-control input-sm glyphicon" onClick="messageGo4();">
+    <select name="sort" id="searchsort" class="form-control input-sm glyphicon" onChange="messageGo4();">
 				<option value="a" >時間 (順排)</option>
 				<option value="b" >時間 (逆排)</option>
 				<option value="c" >人氣 (順排)</option>
